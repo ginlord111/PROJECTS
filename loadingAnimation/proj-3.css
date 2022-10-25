@@ -1,0 +1,34 @@
+body{
+    background-color: #333;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+ height:400px;
+ width:400px;
+ background-color:rgb(34, 32, 32);   
+display:flex;
+justify-content: center;
+align-items: center;
+color:yellow;
+border:1px solid yellow;
+margin-top:100px;
+
+}
+.circle{
+    width:100px;
+    height:100px;
+    border:10px solid gray;
+    border-top-color:yellow;
+    border-radius: 50%;
+    margin:7px auto;
+
+    animation:kekw 1s linear infinite;
+
+}
+@keyframes kekw{
+    100%{
+        transform:rotate(360deg);
+    }
+}
