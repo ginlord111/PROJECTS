@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="scoring.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div class="container">
+<div class="top">
+    <div class="foul" id="team-a"><p class="foul-text" id="text-A">FOUL</p><div class="foul-counter" id="team-foulA">0</div>
+        <div class="div-buttons" id="button-A"><button class="add-button" id="addButtonA"><i class="fa fa-plus"></i></button> <button class="minus-button" id="minusButtonA"><i class="fa fa-minus"></i></button></div>
+    </div>
+
+    <div class="timer"><p id="duration">12:00</p> <button id="start-timer">START</button><p id="period">PERIOD</p></div>
+    <div class="foul" id="team-b"><p class="foul-text" id="text-B">FOUL</p><p class="foul-counter" id="team-foulB">0</p>
+        <div class="div-buttons" id="button-B"><button class="add-button" id="addButtonB"><i class="fa fa-plus"></i></button> <button class="minus-button" id="minusButtonB"><i class="fa fa-minus"></i></button></div>
+    </div>
+
+</div>
+<div class="bot">
+<div  id="teamA-score"><p class="TeamA">TEAM A</p><p class="scoresTeamA">00</p><button class="plus-scoreA"><i class="fa fa-plus"></i></button><button class="minus-scoreA"><i class="fa fa-minus"></i></button></div>
+<div class="shot-clock"><p class="text-shotClock">SHOT CLOCK</p> <p class="shot-clock-numbers">24</p> <button class="reset"><i class="fa fa-history"></i></button></div>
+<div  id="teamB-score"><p class="TeamB">TEAM B</p><p class="scoresTeamB">00</p><button class="plus-scoreB"><i class="fa fa-plus"></i></button><button class="minus-scoreB"><i class="fa fa-minus"></i></button></div>
+
+</div>
+
+
+
+
+  </div>  
+<script src="scoring.js"></script>
+</body>
+</html>

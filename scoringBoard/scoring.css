@@ -1,0 +1,156 @@
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    padding-bottom:200px;
+}
+.container{
+    background-color: rgb(32, 32, 32);
+    width:500px;
+    height:400px;
+border-radius: 5px;
+border:2px solid red;
+cursor:pointer;
+ 
+}
+.top{
+    display:flex;
+    justify-content: space-between;
+height:200px;
+
+}
+.foul{
+    flex:1;
+   margin-top:10px;
+   position:relative;
+   font-family: 'Orbitron', 'sans-serif';
+
+}
+.foul-text{
+    color:white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+margin:0;
+}
+.foul-counter{
+    color:rgb(253, 179, 40);
+    font-size: 30px;
+margin:0;
+margin-top:7px;
+
+}
+
+
+.add-button{
+    margin-right:2px;
+color:white;
+background-color: rgba(240, 15, 15, 0.582);
+border:none;
+border-radius: 3px;
+    padding: 3px 7px;
+}
+.minus-button{
+    background-color: green;
+    color:white;
+    border:none;
+    border-radius: 3px;
+    padding: 3px 7px;
+}
+
+.div-buttons{
+    margin-top:10px;
+}
+
+#team-b{
+    margin-right:10px;
+text-align: end;
+}
+
+#team-a{
+    margin-left:10px; 
+}
+
+.timer{
+    flex:2;
+    text-align: center;
+    color:rgb(212, 2, 2);
+    font-size:50px;
+    margin-top:0px;
+    font-family: 'Orbitron', 'sans-serif';
+    display:flex;
+    flex-direction: column;
+ align-items: center;
+position:relative;
+bottom:46px;
+}
+#start-timer{
+    width:60px;
+   margin-top:15px;
+   padding:5px 4px;
+   border-radius: 5px;
+   border:none;
+   background-color: rgb(163, 51, 10);
+   color:white;
+   position: relative;
+    bottom:50px;
+   transition:0.2s;
+}
+#start-timer:hover{
+    background-color: white;
+    color: rgb(163, 51, 10);
+    
+}
+#period{
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+  position:relative;
+  bottom:50px;
+}
+.bot{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.TeamA, .TeamB,.text-shotClock{
+    color:white;
+    font-size:18px;
+  
+}
+.scoresTeamA, .scoresTeamB, .shot-clock-numbers{
+    font-family: 'Orbitron', 'sans-serif';
+    color:rgb(253, 179, 40);
+    text-align: center;
+    font-size:30px;
+}
+.text-shotClock{
+color:rgb(14, 184, 184)
+
+}
+.shot-clock-numbers{
+    color:rgb(40, 177, 40)
+}
+.plus-scoreA, .plus-scoreB{
+    color:white;
+    background-color: rgb(139, 15, 15);
+    border:none;
+    border-radius: 3px;
+    margin-right:10px;
+    padding: 3px 7px;
+}
+.minus-scoreA, .minus-scoreB{
+    color:white;
+    border:none;
+    border-radius: 3px;
+    margin-right:10px;
+    padding: 3px 7px;
+    background-color: rgb(6, 99, 6);
+}
+.reset{
+    background-color: palevioletred;
+    border:none;
+    padding: 3px 7px;
+    border-radius: 3px;
+    margin-left:45px;
+   
+}
